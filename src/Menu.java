@@ -11,13 +11,12 @@ public class Menu {
     private void menu() {
         Scanner sc = new Scanner(System.in);
         while (!exit) {
-            System.out.print("Menu Basico \n 1. Opcion 1 \n 2. Opcion 2 \n 3. Opcion 3 \n 4. Opcion 4\n 5. Salir \n");
+            System.out.print("Menu Basico \n 1. Construir las tablas de multiplicar de los números de 1 a N, 1 \n 2. Opcion 2 \n 3. Opcion 3 \n 4. Opcion 4\n 5. Salir \n");
             System.out.print("Ingrese una opcion: ");
             try {
                 option = Integer.parseInt(sc.next());
                 switch (option) {
                     case 1:
-                        System.out.print("Bienvenido estas en la Opcion 1! \n");
                         new Multiplication();
                         break;
                     case 2:
