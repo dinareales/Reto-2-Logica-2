@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Squares  {
+public class Squares{
     int n = 0;
     boolean condition = true;
 

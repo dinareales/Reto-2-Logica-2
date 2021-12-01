@@ -12,7 +12,7 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
         while (!exit) {
             System.out.print("Menu Basico \n 1. Construir las tablas de multiplicar de los números de 1 a N, 1 \n " +
-                    "2. Opcion 2 \n " +
+                    "2. Calcular el cuadrado de un numero por suma de números impares \n " +
                     "3. Calcule los cubos de los primeros N números enteros. \n " +
                     "4. Opcion 4\n " +
                     "5. Salir \n");
@@ -24,7 +24,7 @@ public class Menu {
                         new Multiplication();
                         break;
                     case 2:
-                        System.out.print("Bienvenido estas en la Opcion 2! \n");
+                        new Squares();
                         break;
                     case 3:
                         new NicomacoCubes();
