@@ -14,7 +14,7 @@ public class Menu {
             System.out.print("Menu Basico \n 1. Construir las tablas de multiplicar de los números de 1 a N, 1 \n " +
                     "2. Calcular el cuadrado de un numero por suma de números impares \n " +
                     "3. Calcule los cubos de los primeros N números enteros. \n " +
-                    "4. Opcion 4\n " +
+                    "4. Determinar cuantos billetes necesita de cada precio para formar un valor especifico\n " +
                     "5. Salir \n");
             System.out.print("Ingrese una opcion: ");
             try {
@@ -30,7 +30,7 @@ public class Menu {
                         new NicomacoCubes();
                         break;
                     case 4:
-                        System.out.print("Bienvenido estas en la Opcion 4! \n");
+                        new Teller();
                         break;
                     case 5:
                         System.out.print("Hasta luego!");
